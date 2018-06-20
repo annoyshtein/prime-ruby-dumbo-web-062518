@@ -6,4 +6,4 @@ def prime? (num)
   puts factor_array.inspect
 end
 
-prime?(3)
+prime? (0)
