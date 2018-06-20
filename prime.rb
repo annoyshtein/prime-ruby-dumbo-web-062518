@@ -5,7 +5,6 @@ def prime? (num)
   factor_array = (2..test_up_to).to_a
   factor_array.each do |factor|
     if num % factor == 0
-      puts "#{num} divides by #{factor}! #{num} is not prime!"
       return false
     end
   end
