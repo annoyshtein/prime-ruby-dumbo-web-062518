@@ -1,6 +1,6 @@
 def prime? (num)
   puts "Is #{num} a prime number?"
-  puts "Number is less than 1" if num <= 1
+  puts "Number is less than or equal to 1" if num <= 1
   return false if num <= 1
   puts "2 is a prime number" if num == 2
   return true if num == 2
