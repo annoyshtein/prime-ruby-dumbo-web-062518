@@ -3,5 +3,5 @@ def prime? (num)
   test_up_to = Math.sqrt(num).to_i
   puts "We are testing factors up to #{test_up_to}."
   factor_array = (2..test_up_to).to_a
-  
+  puts factor_array.inspect
 end
