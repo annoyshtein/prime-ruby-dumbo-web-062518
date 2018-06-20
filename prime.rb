@@ -15,7 +15,7 @@ def prime? (num)
       return false
     end
   end
-  
+  puts "#{num} is prime!"
   return true
 end
 
