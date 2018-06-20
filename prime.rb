@@ -8,6 +8,7 @@ def prime? (num)
   factor_array = (2..test_up_to).to_a
   puts factor_array.inspect
   factor_array.each do |factor|
+    puts "Now testing factor #{factor}"
 end
 
 prime? (0)
