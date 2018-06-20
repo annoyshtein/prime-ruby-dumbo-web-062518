@@ -18,10 +18,3 @@ def prime? (num)
   puts "#{num} is prime!"
   return true
 end
-
-prime? (0)
-prime? (1)
-prime? (2)
-prime? (18)
-prime? (1001)
-prime? (105557)
