@@ -5,5 +5,4 @@ def prime? (num)
   for factor in number_range 
     puts "I'm putting a pair of shoes away."
   end
-  
 end
