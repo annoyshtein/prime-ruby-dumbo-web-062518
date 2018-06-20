@@ -13,6 +13,7 @@ def prime? (num)
     if num % factor == 0
       puts "#{num} divides by #{factor}! #{num} is not prime!"
       return false
+    end
   end
 end
 
