@@ -10,7 +10,7 @@ def prime? (num)
   puts factor_array.inspect
   factor_array.each do |factor|
     puts "Now testing factor #{factor}"
-    
+    return false if num % factor == 0
   end
 end
 
