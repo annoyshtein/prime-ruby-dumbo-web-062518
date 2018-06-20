@@ -7,6 +7,7 @@ def prime? (num)
   puts "We are testing factors up to #{test_up_to}."
   factor_array = (2..test_up_to).to_a
   puts factor_array.inspect
+  
 end
 
 prime? (0)
