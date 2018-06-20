@@ -1,5 +1,5 @@
 def prime? (num)
-  prime?
+  return false if num <= 1
   
   
 end
