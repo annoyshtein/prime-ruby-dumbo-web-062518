@@ -4,6 +4,6 @@ def prime? (num)
   number_range = 2..test_up_to
   for factor in number_range 
     puts "I'm putting a pair of shoes away."
-end
+  end
   
 end
